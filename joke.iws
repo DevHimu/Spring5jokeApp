@@ -2,12 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ed31bef-9cc9-4c26-be07-c92d2ab22dd0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/himu/jokeapp/joke/controllers/JokeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/himu/jokeapp/joke/services/JokeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/himu/jokeapp/joke/services/JokeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/chuknorris.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joke.iws" beforeDir="false" afterPath="$PROJECT_DIR$/joke.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="joke" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,6 +57,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -50,11 +85,91 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587283015897</updated>
-      <workItem from="1587283026312" duration="861000" />
+      <workItem from="1587283026312" duration="4234000" />
+      <workItem from="1587306955785" duration="1289000" />
     </task>
+    <task id="LOCAL-00001" summary="Adding Joke app dependency chuck-norris-for-actuator and changing description for project">
+      <created>1587284340975</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587284340975</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding Joke app dependency chuck-norris-for-actuator and changing description for project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Joke app dependency chuck-norris-for-actuator and changing description for project" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1854" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1587307158980">
+      <screen x="1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="1854" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1587307158980" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1587313205568">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1587313205568" />
+    <state x="1674" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1587284340352" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1587313205656">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1587313205656" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1587307591764" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1587313205656">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1587313205656" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1587307591763" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1587313205656">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1587313205656" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1587307591763" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1587313205656">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1587313205656" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1587307591763" />
+    <state width="1323" height="179" key="GridCell.Tab.1.bottom" timestamp="1587313205656">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1587313205656" />
+    <state width="1323" height="179" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1587307591764" />
+    <state width="1323" height="179" key="GridCell.Tab.1.center" timestamp="1587313205656">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1587313205656" />
+    <state width="1323" height="179" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1587307591764" />
+    <state width="1323" height="179" key="GridCell.Tab.1.left" timestamp="1587313205656">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1587313205656" />
+    <state width="1323" height="179" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1587307591764" />
+    <state width="1323" height="179" key="GridCell.Tab.1.right" timestamp="1587313205656">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1587313205656" />
+    <state width="1323" height="179" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1587307591764" />
+    <state x="1641" y="98" key="Vcs.Push.Dialog.v2" timestamp="1587284345694">
+      <screen x="1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="1641" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1587284345694" />
+    <state x="426" y="99" key="VcsDiffUtil.ChangesDialog" timestamp="1587313116503">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="426" y="99" key="VcsDiffUtil.ChangesDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1587313116503" />
+    <state x="1745" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1587306955840">
+      <screen x="1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="1745" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1587306955840" />
+    <state x="390" y="156" key="git4idea.merge.GitPullDialog" timestamp="1587313134236">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="156" key="git4idea.merge.GitPullDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1587313134236" />
   </component>
 </project>
